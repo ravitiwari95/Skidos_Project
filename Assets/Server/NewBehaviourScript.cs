@@ -30,7 +30,7 @@ public class NewBehaviourScript : MonoBehaviour
 	}    
 	private void Processjson(string jsonString)
 	{
-
+		Debug.Log ("ravi");
 		Debug.Log (jsonString);
 		JsonData jsonvale = JsonMapper.ToObject (jsonString);
 		Debug.Log (jsonvale);
