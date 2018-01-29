@@ -36,3 +36,4 @@ E:\Ravitiwari\Practice_Project\Json_parsing\Temp\bin\Debug\UnityEngine.HoloLens.
 E:\Ravitiwari\Practice_Project\Json_parsing\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 E:\Ravitiwari\Practice_Project\Json_parsing\obj\Debug\Assembly-CSharp.dll
 E:\Ravitiwari\Practice_Project\Json_parsing\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Ravi Tiwari\Desktop\Json_parsing\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
