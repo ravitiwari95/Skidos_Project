@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B9B203DE-5B6F-BDBE-38A7-B83C94136CEA}</ProjectGuid>
+    <ProjectGuid>{73045F40-E5C0-9075-34F6-EF868E3C3E50}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -80,7 +80,7 @@
  <HintPath>C:/Program Files/Unity 2017.2.0f3/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Users/Ravi Tiwari/Desktop/Json_parsing/Assets/LitJson.dll</HintPath>
+ <HintPath>C:/Users/Ravi Tiwari/Desktop/New folder/Skidos_Project/Assets/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Ravi Tiwari/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
