@@ -7,40 +7,29 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 using System.Collections;
 
-/// <summary>
-/// Jsonapplication.
-/// </summary>
-public class Jsonapplication : MonoBehaviour
+public class JsonApplication : MonoBehaviour
 {
-	// Sample JSON for the following script has attached.
+	
 
-	//public void 
+
 	public Text question;
-	public Text[] programinglanguage;
-	public Text[] integervalue;
-	public GameObject refreshbutton;
+	public Text[] programingLanguage;
+	public Text[] integerValue;
+	public GameObject refreshButton;
 
 
 	void Start(){
-
 		Debug.Log ("Here!!");
-
-		//StartCoroutine (GetData());
 	}
 
 
 	public void GetDataViaRefresh(){
-
 		Debug.Log ("Here!!12");
 		StartCoroutine (GetData());
-		refreshbutton.GetComponent<Button> ().interactable = false;
+		refreshButton.GetComponent<Button> ().interactable = false;
 	}
 
-//	public void OnClick(){
-//
-//		Debug.Log ("Here!!12");
-//		StartCoroutine (GetData());
-//	}
+
 
 
 	IEnumerator GetData()
@@ -59,7 +48,6 @@ public class Jsonapplication : MonoBehaviour
 		else
 		{
 			Debug.Log ("Here!!");
-			//Debug.Log(JsonUtility.ToJson( www.downloadHandler.text));
 			JsonData data = JsonMapper.ToObject(www.downloadHandler.text);
 			Processjson (data);
 		}
@@ -71,16 +59,16 @@ public class Jsonapplication : MonoBehaviour
 		Debug.Log(jsonString.ToJson());
 		Debug.Log (JsonMapper.ToJson (jsonString));
 
-		/**		JsonData jdata = */Debug.Log(jsonString.GetJsonType ());
-		//Debug.Log (jdata.ToJson());
+		Debug.Log(jsonString.GetJsonType ());
+
 		question.text = jsonString [0]["question"].ToString ();
 
 		JsonData choicesData = jsonString[0]["choices"];
 
 		for (int i = 0; i < choicesData.Count; i++) {
 
-			programinglanguage[i].text =  choicesData[i]["choice"].ToString();
-			integervalue[i].text = choicesData[i]["votes"].ToString();
+			programingLanguage[i].text =  choicesData[i]["choice"].ToString();
+			integerValue[i].text = choicesData[i]["votes"].ToString();
 		}
 
 	}

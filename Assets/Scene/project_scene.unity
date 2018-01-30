@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 70360976}
   - component: {fileID: 70360975}
   m_Layer: 5
-  m_Name: SWIFT
+  m_Name: Swift
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,17 +265,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question: {fileID: 407648569}
-  programinglanguage:
+  programingLanguage:
   - {fileID: 772246360}
   - {fileID: 437188714}
   - {fileID: 933850411}
   - {fileID: 951790265}
-  integervalue:
+  integerValue:
   - {fileID: 818506139}
   - {fileID: 384091383}
   - {fileID: 931063677}
   - {fileID: 298737801}
-  refreshbutton: {fileID: 385139923}
+  refreshButton: {fileID: 385139923}
 --- !u!1 &192163078
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 288594537}
   m_Layer: 5
-  m_Name: UI_pivot
+  m_Name: UI_Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 298737802}
   - component: {fileID: 298737801}
   m_Layer: 5
-  m_Name: Ruby_vote
+  m_Name: Ruby_Vote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 384091384}
   - component: {fileID: 384091383}
   m_Layer: 5
-  m_Name: Python_vote
+  m_Name: Python_Vote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,7 +762,7 @@ GameObject:
   - component: {fileID: 437188715}
   - component: {fileID: 437188714}
   m_Layer: 5
-  m_Name: Button_Text
+  m_Name: Python_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 772246361}
   - component: {fileID: 772246360}
   m_Layer: 5
-  m_Name: Button_Text
+  m_Name: Swift_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 931063678}
   - component: {fileID: 931063677}
   m_Layer: 5
-  m_Name: Objective-c_vote
+  m_Name: Objective-c_Vote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1268,7 +1268,7 @@ GameObject:
   - component: {fileID: 933850412}
   - component: {fileID: 933850411}
   m_Layer: 5
-  m_Name: Objective-c_text
+  m_Name: Objective-c_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1342,7 +1342,7 @@ GameObject:
   - component: {fileID: 951790266}
   - component: {fileID: 951790265}
   m_Layer: 5
-  m_Name: Ruby_text
+  m_Name: Ruby_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,7 +1417,7 @@ GameObject:
   - component: {fileID: 1039028019}
   - component: {fileID: 1039028018}
   m_Layer: 5
-  m_Name: OBJECTIVE-C
+  m_Name: Objective-C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1529,7 +1529,7 @@ GameObject:
   - component: {fileID: 1627201100}
   - component: {fileID: 1627201099}
   m_Layer: 5
-  m_Name: PYTHON
+  m_Name: Python
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1710,7 +1710,7 @@ GameObject:
   - component: {fileID: 1713425554}
   - component: {fileID: 1713425553}
   m_Layer: 5
-  m_Name: RUBY
+  m_Name: Ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
